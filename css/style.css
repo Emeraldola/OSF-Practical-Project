@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+header {
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: rgb(218, 86, 103);
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-section {
+    background-image: url(/img/720entrance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 17% 0;
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+    padding-bottom: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+.our-school h1 {
+    text-align: center;
+    padding: 50px 0;
+    color: blue;
+    font-size: 40px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.box-content {
+    background-color: white;
+    width: 37%;
+    text-align: center;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.box-content img {
+    width: 100%;
+}
+
+.box-content h3 {
+    color: blue;
+    padding: 5px 0;
+}
+
+form {
+    text-align: left;
+    width: 450px;
+    margin: auto;
+}
+
+
+.form {
+    background-color: white;
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.form h1 {
+    padding-top: 20px;
+}
+
+.form p {
+    padding-bottom: 8px;
+}
+
+label {
+    color: blue;
+    font-size: 19px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 10px 0;
+}
+
+textarea {
+    padding: 12px;
+}
+
+.form button {
+    margin-top: 5px;
+}
+
+
+ 
+footer {
+    background-color: blue;
+    padding: 30px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-nav ul {
+    display: block;
+    /*gap: 5px;*/
+ /*   padding: 0 150px;*/
+}
+
+footer p {
+    color: white;
+}
